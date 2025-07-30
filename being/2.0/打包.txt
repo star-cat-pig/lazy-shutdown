@@ -1,0 +1,5 @@
+pyinstaller --onefile --windowed --version-file version_info.txt --icon=icon.ico --add-data "icon.ico;." --name "懒人关机器" your_script.py
+
+pyinstaller --onefile --windowed --name guardian --version-file 12.txt --icon=icon.ico --add-data "icon.ico;." guardian.py
+
+pyinstaller --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --name "懒人关机器" your_script.py
